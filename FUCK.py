@@ -271,8 +271,17 @@ def hasil(OK,cp):
 	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97m/sdcard/Rydah-CP.txt' % (H, P, str(len(cp))))
 
 	    input("\x1b[1;97mPress enter to back Rydah Menu ")
+            R()
 
-			print ('[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
+		
+
+def R():
+
+			os.system("clear")
+
+			print(logo)
+
+			print ('[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
 
 			print ("\033[1m [!] Tool    : Rydah Fast Clone")
 
@@ -282,7 +291,7 @@ def hasil(OK,cp):
 
 			print (" [!] Status  : \033[1;92mPAID\033[1;97m")
 
-			print ('[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
+			print ('[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
 
 			print(" [1] Start Cracking  ")
 
@@ -296,11 +305,11 @@ def hasil(OK,cp):
 
 			print (" [0] Exit Programing")
 
-			print ('[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
+			print (' [$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
 
 			key = input(" [*] Choose : ")
 
-			print ('[$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
+			print (' [$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]')
 
 			if key in [""]:
 
