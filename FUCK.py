@@ -271,7 +271,7 @@ def hasil(OK,cp):
 	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97m/sdcard/Rydah-CP.txt' % (H, P, str(len(cp))))
 
 	    input("\x1b[1;97mPress enter to back Rydah Menu ")
-            R()
+            
 
 		
 
