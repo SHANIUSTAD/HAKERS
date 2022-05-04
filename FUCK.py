@@ -142,8 +142,6 @@ def main_apv():
 
         key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
 
-    except IOError:
-
 logo="""\033[1;37m
 
  \033[1;32m         
