@@ -4,7 +4,7 @@ try:
 
     import requests
 
-except ImportError:
+except ImportError: 
 
     print('\n [✓] installing requests !...\n')
 
@@ -140,13 +140,9 @@ def main_apv():
 
     try:
 
-        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
-
-logo="""\033[1;37m
-
- \033[1;32m         
-
-           🐹 ⋆ 🐸  🎀  𝑅𝒴𝒟𝒜𝐻 𝒯𝑀  🎀  🐸 ⋆ 🐹
+logo=""\033[1;32m  
+    
+\033[1;32m 🐹 ⋆ 🐸  🎀  𝑅𝒴𝒟𝒜𝐻 𝒯𝑀  🎀  🐸 ⋆ 🐹
 
 ,-*'^'~*-.,_,.-*~   🎀  𝑅𝒴𝒟𝒜𝐻 𝒯𝑀  🎀   ~*-.,_,.-*~'^'*-,
 
