@@ -159,21 +159,7 @@ _    _          _  ________ _____   _____
 
  \033[1;32m Use (Airplane) Mode Every 10 Min To Get More Ok iDz \033[1;32m
 
- [$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]"""                           
-
-def hasil(OK,cp):
-
-	if not len(OK) != 0:	    pass
-
-	if len(cp) != 0:
-
-	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97m/sdcard/Rydah-OK.txt' % (H, P, str(len(ok))))
-
-	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97m/sdcard/Rydah-CP.txt' % (H, P, str(len(cp))))
-
-	    input("\x1b[1;97mPress enter to back Rydah Menu ")
-            
-		
+ [$]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[$]"""                           		
 def R():
 
 			os.system("clear")
@@ -255,7 +241,18 @@ def R():
 				time.sleep(0.5)
 
 				exit("\n [✓] Thank You\n")
+def hasil(OK,cp):
 
+	if not len(OK) != 0:	    pass
+
+	if len(cp) != 0:
+
+	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97m/sdcard/Rydah-OK.txt' % (H, P, str(len(ok))))
+
+	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97m/sdcard/Rydah-CP.txt' % (H, P, str(len(cp))))
+
+	    input("\x1b[1;97mPress enter to back Rydah Menu ")
+            
 class __xxx__:
 
     def __init__(self):
